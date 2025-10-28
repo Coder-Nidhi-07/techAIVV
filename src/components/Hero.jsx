@@ -5,6 +5,8 @@ import heroImage from "../assets/heroImage.png";
 
 
 
+
+
 export default function Hero() {
   const navigate = useNavigate();
 
@@ -66,7 +68,6 @@ export default function Hero() {
             transition={{ repeat: Infinity, duration: 6 }}
           ></motion.div>
 
-          {/* ✅ Replaced with local asset */}
           <motion.img
             src={heroImage}
             alt="Digital Marketing"
